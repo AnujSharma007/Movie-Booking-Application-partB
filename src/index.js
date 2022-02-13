@@ -1,15 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import 'typeface-roboto';
-import registerServiceWorker from './registerServiceWorker';
-import Controller from './screens/Controller';
-import Header from './common/header/Header';
+import Home from './screens/Home/Home';
 
-// ReactDOM.render(<Controller />, document.getElementById('root'));
-// registerServiceWorker();
-
-
-
-ReactDOM.render(<Header />, document.getElementById('root'));
-
+ReactDOM.render(
+  <Home/>,
+  document.getElementById('root')
+);   
