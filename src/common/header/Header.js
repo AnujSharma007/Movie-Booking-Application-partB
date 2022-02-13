@@ -393,7 +393,7 @@ class Header extends Component {
                 REGISTER
               </Button>
             </TabContainer>
-          )}
+          )} 
         </Modal>
       </div>
     );
